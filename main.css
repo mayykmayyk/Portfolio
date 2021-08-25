@@ -5,11 +5,11 @@ body{
 
 .logo{
     padding: 0; margin: 0;
-    border: 2px solid #0066FF;
+    border: 2px solid #0d4aa7;
     font-weight: 900;
     line-height: .7;
     font-size: 2em;
-    color: #0066FF;
+    color: #0d4aa7;
 }
 
 p{
@@ -36,27 +36,27 @@ p{
 }
 
 .cta-primary{
-    background-color: #0066FF;
+    background-color: #0d4aa7;
     border-radius: 0;
     color: white;
 }
 
 .cta-primary:hover{
     background-color: #fff;
-    color: #0066FF;
-    border: 1px solid #0066FF;
+    color: #0d4aa7;
+    border: 1px solid #0d4aa7;
 }
 
 .cta-secondary{
     margin-top: 2em;
     background-color: #fff;
     border-radius: 0;
-    color: #0066FF;
+    color: #0d4aa7;
     border: 1px solid #fff;
 }
 
 .cta-secondary:hover{
-    background-color: #0066FF;
+    background-color: #0d4aa7;
     color: #fff;
 }
 
@@ -72,11 +72,11 @@ header{
 }
 
 .nav a{
-    color: #0066FF;
+    color: #0d4aa7;
 }
 
 .nav a:not(.nav-logo):hover{
-    border-bottom: 5px #0066FF solid;
+    border-bottom: 5px #0d4aa7 solid;
     transition: 200ms;
 }
 
@@ -85,7 +85,7 @@ header{
     display: flex;
     height: 100vh;
     align-items: center;
-    background-color: #0066FF;
+    background-color: #0d4aa7;
     z-index: 0;
 }
 
@@ -134,7 +134,7 @@ header{
 }
 
 .section-header h1{
-    color: #0066FF;
+    color: #0d4aa7;
     font-weight: 900;
     margin-bottom: 0;
     margin: 1em 0;
@@ -142,7 +142,7 @@ header{
 
 .section-content{
     padding-top: 0;
-    color: #0066FF;
+    color: #0d4aa7;
 }
 
 .section-1 .hero-pattern{
@@ -162,11 +162,11 @@ header{
     left: 0; right: 0;
     margin: 0 auto;
     width: 50%;
-    border: 2px solid #0066FF;
+    border: 2px solid #0d4aa7;
 }
 
 .skill{
-    background-color: #0066FF;
+    background-color: #0d4aa7;
 }
 
 .skill-icon{
@@ -216,7 +216,7 @@ header{
 .education-container, .internship-container{
     padding: 1.5em  0;
     margin: 1em 0;
-    background-color: #0066FF;
+    background-color: #0d4aa7;
 }
 
 .date,.info{
@@ -224,7 +224,7 @@ header{
 }
 
 .experience-card{
-    background-color: #0066FF;
+    background-color: #0d4aa7;
     text-align: start;
     padding: 20px 30px;
     height: 100%;
@@ -235,7 +235,7 @@ header{
 }
 
 .section-6{
-    background-color: #0066FF;
+    background-color: #0d4aa7;
 }
 
 .section-6 .section-header h1{
@@ -258,7 +258,7 @@ footer .flex-wrapper{
 
 footer  p, footer small{
     margin: 0;
-    color: #0066FF;
+    color: #0d4aa7;
 }
 
 @media screen and (max-width: 991px) {
