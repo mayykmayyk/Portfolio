@@ -277,12 +277,12 @@ footer  p, footer small{
         width: 45%;
     }
 
-    .nav-logo, .contact-wrapper button{
+    .nav-logo, .contact-wrapper a{
         display: none;
     }
 
     .skill-card{
-        text-align: center;
+        margin: 2em 0;
     }
 
     .skill-icon{
