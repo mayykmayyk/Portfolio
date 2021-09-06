@@ -3,3 +3,6 @@ THIS IS MY TO DO LIST FOR THIS NEW PORTFOLIO !!!!!!
 - add more decorations
 - make email form a modal.
 - fix mobile compatibility
+
+HUGE TO DO:
+- add animations and and all that fancy stuff with VANILLA JS UWU
