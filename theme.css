@@ -4,7 +4,11 @@
     --primary: #bf616a;
     --text: #2e3440;
     --background: #eceff4;
+    --hover: #88C0D0;
+    --yellow: #EBCB8B;
 }
+
+html{scroll-behavior: smooth;}
 
 body{
     background-color: var(--background);
@@ -31,6 +35,14 @@ p{
     line-height: 2;
 }
 
+.nav-main a{
+    transition: 250ms;
+}
+
+.nav-main a:hover{
+    content: ' ';
+    background-color: var(--yellow);
+}
 
 .btn{
     border-radius: 30px;
@@ -40,8 +52,12 @@ p{
 .btn-primary{
     background-color: var(--primary);
     color: var(--background);
+    transition: 250ms;
 }
 
+.btn-primary:hover{
+    background-color: var(--hover);
+}
 
 h2{ line-height: 3; }
 

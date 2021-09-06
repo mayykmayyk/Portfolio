@@ -16,6 +16,8 @@
 header{
     position: fixed; 
     width: 100%;
+    z-index: 1;
+    transition: 500ms;
 }
 
 header .container-flex{
@@ -24,11 +26,11 @@ header .container-flex{
 }
 
 .nav-main ul li{
-    padding: 0 1em;
+    padding: 0 2em;
 }
 
 .wrapper-logo, .wrapper-navigation{
-    padding: 1.8em 0;
+    padding: .5em 0;
 }
 
 .wrapper-logo{

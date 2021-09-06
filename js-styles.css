@@ -1,0 +1,9 @@
+@import url("theme.css");
+
+.add-background{
+    background-color: var(--text);
+}
+
+.change-color{
+    color: var(--background);
+}
