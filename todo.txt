@@ -1,0 +1,5 @@
+THIS IS MY TO DO LIST FOR THIS NEW PORTFOLIO !!!!!! 
+
+- add more decorations
+- make email form a modal.
+- fix mobile compatibility
