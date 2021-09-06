@@ -1,0 +1,62 @@
+@import url("theme.css");
+
+.hero-image-wrapper img{
+    position:relative;
+    right: -1em;
+    bottom: -2.5em;
+}
+
+.hero .container{
+    border-right: 2px solid var(--text);
+    border-bottom: 2px solid var(--text);
+}
+
+.about .container{
+    position: relative;
+    border-left: 2px solid var(--text);
+    border-bottom: 2px solid var(--text);
+    padding-bottom: 12em;
+}
+
+.about .container::before{
+    content: ' ';
+    position: absolute;
+    border-left: 2px solid var(--text);
+    height: 20%;
+    left: -2px;
+    top: -6.1em;
+}
+
+.about .container::after{
+    content: ' ';
+    position: absolute;
+    border-left: 2px solid var(--text);
+    height: 27%;
+    right: -1px;
+    bottom: -10.34em;
+}
+
+.skills .container{
+    position: relative;
+}
+
+.skills .container::after{
+    content: ' ';
+    position: absolute;
+    width: 50%; height: 2px;
+    background-color: var(--text);
+    bottom: 8px; left: 0;
+    z-index: -1;
+}
+
+.experience .container{
+    position: relative;
+}
+
+.experience .container::before{
+    content: ' ';
+    position: absolute;
+    height: 300%;
+    left: 0; top: -82%;
+    border-left: 2px solid var(--text);
+}

@@ -1,0 +1,164 @@
+.container{
+    max-width: 1500px;
+    width: 85%;
+    left: 0; right: 0;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+}
+
+.container-grid{
+    display: grid;
+}
+
+header{
+    position: fixed; 
+    width: 100%;
+}
+
+header .container-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-main ul li{
+    padding: 0 1em;
+}
+
+.wrapper-logo, .wrapper-navigation{
+    padding: 1.8em 0;
+}
+
+.wrapper-logo{
+    max-width: 120px;
+}
+
+.wrapper-logo img{
+    width: 100%;
+}
+
+section{
+    padding: 3em 0;
+}
+
+.hero-image-wrapper{
+    text-align: end;
+    width: 50%;
+}
+
+.hero-text-wrapper{
+    width: 50%;
+    padding: 12em 0;
+    text-align: start;
+}
+
+.hero-image-wrapper img{
+    min-width: 600px;
+    width: 100%;
+    padding-top: 3em;
+}
+
+section{
+    text-align: center;
+}
+
+h2{ position: relative; }
+h2::after{ position: absolute }
+
+.about p{
+    width: 70%;
+    margin: 2em auto;
+}
+
+.skills .container-flex{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7em;
+}
+
+.skill-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    gap: 10px;
+}
+
+.skill-bar-container{
+    border: 1px solid var(--text);
+    height: 1em;
+}
+
+.skill-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-image img{
+    width: 70%;
+}
+
+
+.button-wrapper{
+    margin-top: 10em;
+}
+
+.skill-bar-level{
+    height: 1em;
+}
+
+#html .skill-bar-level{ width: 80%; }
+#css .skill-bar-level{ width: 80%; }
+#js .skill-bar-level{ width: 30%; }
+#troubleshooting .skill-bar-level{width: 80%;}
+#wordpress .skill-bar-level{ width: 20%;}
+#xd .skill-bar-level{ width: 50%;}
+#photoshop .skill-bar-level{ width: 60%;}
+
+
+.experience .container-grid{
+    margin-top: 6em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.experience-container{
+    padding: 2em;
+    text-align: center;
+}
+
+.gallery .container-flex{
+    flex-direction: row;
+}
+
+.gallery-column{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3);
+}
+
+.gallery-item{
+    width: auto;
+}
+
+.gallery-item img{
+    width: 100%;
+}
+
+.cta-section{
+    padding: 3em 0;
+    text-align: center;
+}
+
+.cta-section .section-header::after{
+    display: none;
+}
+
+footer .container-flex{
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+
