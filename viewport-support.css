@@ -47,6 +47,14 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .experience .container-grid{
+        margin-top: 3em;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
 @media screen and (max-width: 414px) {
     section{
         padding: 2em;
@@ -71,12 +79,6 @@
 
     .button-wrapper{
         margin-top: 3em;
-    }
-
-    .experience .container-grid{
-        margin-top: 3em;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
     }
 
     footer .section-header{
