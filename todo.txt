@@ -2,7 +2,7 @@ THIS IS MY TO DO LIST FOR THIS NEW PORTFOLIO !!!!!!
 
 - add more decorations
 - make email form a modal.
-- fix mobile compatibility
+- fix mobile compatibility (done)
 - replace contact button in hero section to social media links (like you have any lol loser.)
 
 HUGE TO DO:
