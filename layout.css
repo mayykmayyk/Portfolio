@@ -46,18 +46,19 @@ section{
 }
 
 .hero-image-wrapper{
+    min-width: 550px;
     text-align: end;
     width: 50%;
 }
 
 .hero-text-wrapper{
     width: 50%;
-    padding: 12em 0;
+    padding: 10em 0;
     text-align: start;
 }
 
 .hero-image-wrapper img{
-    min-width: 600px;
+    min-width: 500px;
     width: 100%;
     padding-top: 3em;
 }

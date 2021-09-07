@@ -40,7 +40,6 @@ p{
 }
 
 .nav-main a:hover{
-    content: ' ';
     background-color: var(--yellow);
 }
 
