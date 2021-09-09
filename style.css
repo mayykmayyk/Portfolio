@@ -7,8 +7,17 @@
 }
 
 .hero .container{
+    position: relative;
     border-right: 2px solid var(--text);
     border-bottom: 2px solid var(--text);
+}
+
+.hero .container:before{
+    content: ' ';
+    position: absolute;
+    width: 2px; height: 50px;
+    background-color: var(--text);
+    right: -2px;top: -50px;
 }
 
 .about .container{
@@ -22,7 +31,7 @@
     content: ' ';
     position: absolute;
     border-left: 2px solid var(--text);
-    height: 20%;
+    height: 16%;
     left: -2px;
     top: -6.1em;
 }
@@ -60,3 +69,4 @@
     left: 0; top: -82%;
     border-left: 2px solid var(--text);
 }
+

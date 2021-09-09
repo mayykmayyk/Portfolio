@@ -26,7 +26,7 @@ a{
     color: var(--text);
 }
 
-h1{ font-size: 4em; }
+h1{ font-size: clamp(2em, 3em + 1rem, 4em); }
 h2{ font-size: 2.7em; margin-top: 0;}
 h3{ font-size: 1.6em; }
 h4{ font-size: 1em; }
@@ -35,12 +35,21 @@ p{
     line-height: 2;
 }
 
+header{
+    background-color: var(--text);
+}
+
 .nav-main a{
+    color: var(--background);
     transition: 250ms;
 }
 
 .nav-main a:hover{
     background-color: var(--yellow);
+}
+
+.active{
+    background-color: var(--hover);
 }
 
 .btn{
@@ -88,7 +97,12 @@ h2::after{
 
 .experience-container{
     background-color: var(--text);
+    z-index: 1;
 }
+
+.experience-container:nth-child(1){background-color: #EBCB8B;}
+.experience-container:nth-child(2){background-color: #A3BE8C;}
+.experience-container:nth-child(3){background-color: #8FBCBB;}
 
 .experience-container *{
     color: var(--background);

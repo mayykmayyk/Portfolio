@@ -1,4 +1,4 @@
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 929px) {
 
     h1{ font-size: 2em; }
     h2{ font-size: 2.2em; margin-top: 0;}
@@ -56,6 +56,11 @@
 }
 
 @media screen and (max-width: 414px) {
+
+    h2.section-header::after{
+        width: 80%;
+    }
+
     section{
         padding: 2em;
     }
